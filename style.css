@@ -1,0 +1,298 @@
+
+
+body{
+    margin: 0%;
+    margin-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+}
+
+
+#prt{
+    border-radius: 40px;
+    margin-left: 0%;
+}
+canvas{
+  display:block;
+}
+
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(40, 42, 53);
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+#logo{
+    width: 35px;
+    height: 35px;
+    border-radius: 40px;
+    margin-top: 0px;
+    margin-left: 0%;
+}
+
+#conatiner{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+nav, 
+#logo,
+#nav1 {
+    display: inline;
+}
+
+ul, li{
+    list-style-type: none;
+    display: inline;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+
+
+#btns,
+#btns1 {
+    text-decoration: none;
+    height: 0.5cm;
+    background-color: transparent;
+    border: none;
+    margin: none;
+    position: relative;
+    top: -0.18cm;
+    font-size: 15px;
+  }
+
+  a {
+    display: inline-block;
+    position: relative;
+    color: rgb(40, 42, 53);
+  }
+  
+  a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(40, 42, 53);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  a:hover, #btns:hover{
+    cursor: pointer;
+  }
+
+  #c, 
+  #cpp,
+  #HTML,
+  #JavaScript{
+    width: 50px;
+    height: 60px;
+  } 
+
+  #Java,
+  #Css{
+    width: 50px;
+    height: 80px;
+  }
+
+  #container1{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+  }
+
+  #card{
+    display: inline;
+    text-align: center;
+    background-color: white;
+    width: 120px;
+    align-items: center;
+    border-radius: 10px 10px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #card:hover{
+    cursor: pointer;
+    scale: 1.03;
+    transition: 0.3s;
+  }
+
+  #sub{
+    margin-left: 25px;
+    font-size: large;
+  }
+
+  h4:hover, #card:hover{
+    color:rgb(40, 42, 53);
+  }
+
+  #btns1{
+    background-color:rgb(40, 42, 53);
+    color: white;
+    width: 105px;
+    height: 30px;
+    border-radius: 40px;
+  }
+
+  #btns1:hover{
+    cursor: pointer;
+  }
+
+  #Ai, 
+  #ph,
+  #Clip{
+    width: 100px;
+    height: 100px;
+  }
+
+
+#logo1{
+  width: 125px;
+  height: 125px;
+  border-radius: 80px;
+  margin-top: 0px;
+}
+
+#bio{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+
+#bio1{
+  font-size: 30px;
+  margin-right: 10%;
+}
+
+
+body {
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  height: 400px;
+  background-size: cover;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.active {
+  opacity: 1;
+}
+
+.slider-container{
+  animation: moveUpDown 5s linear infinite;
+}
+
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+#footer{
+  background-image: url('https://www.w3schools.com/images/background_in_space.gif');
+  height: 200px;
+  background-size: cover;
+  margin-bottom: 0%;
+  color:white
+  }
+
+  #fot{
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+
+
+  #fot::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+  }
+  
+  #fot:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  #fot:hover{
+    cursor: default;
+  }
